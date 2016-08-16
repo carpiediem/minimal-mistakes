@@ -130,6 +130,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  activesupport
   github-pages
   jekyll-feed
   wdm (~> 0.1.0)
