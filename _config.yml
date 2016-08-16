@@ -11,8 +11,8 @@ title                    : "MyLegCo Data Blog"
 title_separator          : "-"
 name                     : &name "Ryan Carpenter"
 description              : &description "A look into the big data of Hong Kong politics."
-url                      : https://mylegco.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+url                      : http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "carpiediem/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : *name
   avatar           : "avatar.jpg"
-  bio              : "Engineer. Product Manager. Tinkerer."
+  bio              : #"Engineer. Product Manager. Tinkerer."
   location         : "Hong Kong"
   email            :
   uri              : "http://rslc.us"
@@ -165,18 +165,18 @@ kramdown:
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # docs:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # recipes:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # pets:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -247,9 +247,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Hong_Kong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
